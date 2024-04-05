@@ -1,0 +1,32 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  direction: rtl;
+  font-family: "YekanBakh";
+  font-weight: normal;
+  font-size:14px;
+  background: #F9FBFF;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: none;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+p , h1, h2, h3, h4, h5, h6 ,ul, ol, .btn {
+  margin: 0;
+  padding: 0;
+  line-height: 220%;
+}

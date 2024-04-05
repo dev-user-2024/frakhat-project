@@ -1,0 +1,40 @@
+.paginationContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0;
+}
+
+.tagsPaginationButton {
+    display: flex;
+}
+
+.tagsPaginationButton button {
+    margin-left: 10px;
+}
+
+.pages button {
+    color: #6C6C6C;
+    width: 35px;
+    height: 33px;
+    margin: 5px;
+    background-color: #FEFEFE;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 670px) {
+    .tagsPaginationButton button {
+        width: 70px;
+        height: 26px;
+        font-size: 11px;
+    }
+
+    .tagsPaginationButton button img{
+        width: 20px;
+    }
+
+    .pages button {
+        width: 30px;
+        height: 28px;
+    }
+}

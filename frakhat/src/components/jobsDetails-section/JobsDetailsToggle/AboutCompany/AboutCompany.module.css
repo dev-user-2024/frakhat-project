@@ -1,0 +1,11 @@
+.AboutCompanyContainer {
+    max-width: 1440px;
+    margin: 40px auto 0 auto;
+    padding: 0 20px;
+}
+
+.AboutCompanyContainer p {
+    color: #15161F;
+    font-size: 14px;
+    line-height: 260%;
+}

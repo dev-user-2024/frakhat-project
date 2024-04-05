@@ -1,0 +1,92 @@
+.religious_times_container {
+  gap: 13px;
+  padding: 13px 16px;
+  border: 0.5px solid #d9d9d9;
+  border-radius: 10px;
+  font-family: "YekanBakhFaNum";
+  font-style: normal;
+}
+
+.religious_times_header p {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.item_time {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
+  color: #6c6c6c;
+}
+.item_time:nth-child(odd) {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: right;
+  color: #282828;
+}
+.item_time::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #375288;
+
+  display: inline-block;
+  margin-left: 9px;
+}
+
+.filter__widget select {
+  max-width: 97px;
+  padding: 0px 3px;
+  border: 0.5px solid #d9d9d9;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #282828;
+}
+
+.filter__widget select:focus {
+  outline: none !important;
+}
+
+.filter__widget select option {
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 235%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .religious_times_container {
+    flex-direction: row;
+    gap: 13px;
+    padding: 10px 0px;
+    border: none;
+    border-radius: none;
+  }
+
+  .item_time {
+    width: 100%;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #6c6c6c;
+  }
+
+  .filter__widget select {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #282828;
+    font-weight: 500;
+    line-height: auto;
+  }
+  .filter__widget select option {
+    width: 100%;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 235%;
+  }
+}

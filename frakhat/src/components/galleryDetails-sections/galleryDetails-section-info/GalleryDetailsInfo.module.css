@@ -1,0 +1,62 @@
+.GalleryDetailsInfo_container {
+  max-width: 1440px;
+  margin: 19px auto 0 auto;
+  padding: 0;
+  gap: 12px;
+
+  font-family: "YekanBakh";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: justify;
+
+  color: #282828;
+}
+
+.GalleryDetailsInfo_container h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.GalleryDetailsInfo_details {
+  gap: 25px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+
+  color: #6c6c6c;
+}
+
+.GalleryDetailsInfo_details_text {
+  gap: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.GalleryDetailsInfo_details_text div {
+  display: flex;
+  align-items: center;
+}
+
+.GalleryDetailsInfo_details_text>div>img {
+  width: 24px;
+  height: 24px;
+  margin-left: 5px;
+}
+
+.GalleryDetailsInfo_details_text p {
+  margin: 5px;
+}
+
+@media only screen and (max-width: 400px) {
+  .GalleryDetailsInfo_details {
+    flex-direction: column
+  }
+
+  .GalleryDetailsInfo_details_text {
+    width: 100%;
+    justify-content: space-between;
+  }
+}

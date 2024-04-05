@@ -1,0 +1,38 @@
+.unsuccessful_purchase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 90px 0;
+}
+
+.unsuccessful_purchase div {
+    margin: 20px 0;
+}
+
+.unsuccessful_purchase img {
+    width: 197px;
+    height: 166px;
+}
+
+.unsuccessful_purchase p {
+    color: #940101;
+    font-style: normal;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.unsuccessful_purchase button {
+    width: 175px;
+    height: 48px;
+    border-radius: 10px;
+    background: #375288;
+    border: none;
+    color: #fff;
+    transition: all 0.5s;
+    margin-top: 30px;
+}
+
+.unsuccessful_purchase button:hover{
+    transform: scale(1.07);
+}

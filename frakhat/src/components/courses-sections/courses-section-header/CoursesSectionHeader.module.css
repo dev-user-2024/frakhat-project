@@ -1,0 +1,220 @@
+.coursesSection_header_container {
+  gap: 20px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "YekanBakhFaNum";
+  font-style: normal;
+  padding: 0 1rem;
+}
+
+.coursesSection_header {
+}
+
+.coursesSection_header_banner {
+  max-width: 1440px;
+  /* height: 740px; */
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+}
+.coursesSection_header_banner_content {
+  width: 70%;
+  height: 100%;
+  position: absolute;
+  top: 20%;
+  right: 8%;
+  color: #fff;
+  gap: 35px;
+}
+.coursesSection_header_banner_content h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 74px;
+}
+.coursesSection_header_banner_content p {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 20px;
+  text-align: right;
+  color: #fff;
+}
+.coursesSection_header_banner img {
+  width: 100%;
+  height: 740px;
+  background: linear-gradient(
+    270deg,
+    #282828 15.67%,
+    rgba(40, 40, 40, 0.71) 39.7%,
+    rgba(40, 40, 40, 0) 70.52%
+  );
+  border-radius: 30px;
+}
+
+.coursesSection_header_attributes {
+  height: 277px;
+  margin-top: 250px;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 122px;
+  background: #375288;
+}
+
+.coursesSection_header_attributes :nth-child(2) {
+  margin-bottom: 50px;
+}
+
+
+
+@media only screen and (max-width: 1365px) {
+  .coursesSection_header_banner {
+    padding: 0 15px;
+  }
+
+  .coursesSection_header_attributes {
+    gap: 50px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .coursesSection_header_banner_content {
+    top: 0%;
+    right: 5%;
+    justify-content: center;
+    gap: 25px;
+  }
+  .coursesSection_header_banner_content h1 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .coursesSection_header_banner_content p {
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  .coursesSection_header_banner img {
+    height: 640px;
+  }
+
+
+  .coursesSection_header_attributes {
+    flex-direction: column;
+    height: 100%;
+    margin-top: 105px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background: transparent;
+  }
+
+  .coursesSection_header_attributes :nth-child(2) {
+    margin-bottom: 0;
+  }
+
+ 
+ 
+}
+
+@media only screen and (max-width: 800px) {
+  .coursesSection_header_banner_content {
+    top: 0%;
+    right: 5%;
+    justify-content: center;
+
+    gap: 18px;
+
+  }
+  .coursesSection_header_banner_content h1 {
+    font-size: 28px;
+    line-height: 50px;
+  }
+  .coursesSection_header_banner_content p {
+    font-size: 22px;
+    line-height: 34px;
+  }
+
+  .coursesSection_header_banner img {
+    height: 440px;
+  }
+  
+  .coursesSection_header_banner_content Button {
+    max-width: 100px;
+    height: 30px;
+    font-size: 16px;
+   }
+
+  
+}
+
+@media only screen and (max-width: 650px) {
+  .coursesSection_header_banner_content {
+    top: 0%;
+    gap: 10px;
+  }
+  .coursesSection_header_banner_content h1 {
+    font-size: 22px;
+    line-height: 40px;
+  }
+  .coursesSection_header_banner_content p {
+    font-size: 18px;
+    line-height: 32px;
+    max-height: 32px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+
+  .coursesSection_header_banner img {
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .coursesSection_header_banner_content {
+    top: 0%;
+    gap: 10px;
+  }
+  .coursesSection_header_banner_content h1 {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .coursesSection_header_banner_content p {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 200%;
+    max-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+
+  .coursesSection_header_banner_content Button {
+    height: 25px;
+    font-size: 12px;
+    line-height: normal;
+   }
+}
+
+.swiper-slide {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.swiper-slide-active {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 350px) {
+  .coursesSection_header_banner_content {
+    top: 0%;
+    gap: 10px;
+  }
+  .coursesSection_header_banner_content h1 {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .coursesSection_header_banner_content p {
+    display: none;
+  }
+
+}

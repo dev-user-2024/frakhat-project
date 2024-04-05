@@ -1,0 +1,366 @@
+.BuyCourseSections {
+  max-width: 1440px;
+  margin: 52px auto 0 auto;
+  padding: 0;
+  gap: 60px;
+  font-family: "YekanBakhFaNum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 230%;
+  color: #282828;
+}
+
+.DiscountMessage {
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #beffc1b8;
+  padding: 22px;
+}
+
+.DiscountMessage p {
+  color: green;
+}
+
+.DiscountMessage svg {
+  color: green;
+}
+
+.BuyCourseSections input {
+  margin: 0;
+}
+
+.pagesFormInput {
+  width: 431px;
+  height: 55px;
+  padding: 10px;
+  margin-bottom: 40px !important;
+  border: 1px solid #6c6c6c;
+  border-radius: 10px;
+}
+
+.pagesFormInput div {
+  display: flex;
+  gap: 20px;
+}
+
+.pagesFormInput div p:nth-child(1) {
+  color: rgb(198 0 0);
+  text-decoration: line-through;
+}
+
+.pagesFormInput div p:nth-child(2) {
+  color: green;
+}
+
+.previousPrice {
+  color: rgb(198 0 0);
+  text-decoration: line-through;
+}
+
+.corseDiscount{
+  color: green;
+}
+
+.fadeIn {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.fadeOut {
+  animation: fadeOut 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+#discount_code {
+  position: relative;
+}
+
+#discount_code button {
+  position: absolute;
+  left: 0;
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+
+.table-row {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+
+.table-body {
+  border: 1px solid #ccc;
+}
+
+.table-cell-head {
+  color: #375288;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 30px 0 10px 0;
+}
+
+.table-cell-head:nth-child(1) {
+  flex-basis: 0;
+  flex-grow: 7;
+  flex-shrink: 1;
+}
+
+.table-cell-head:nth-child(2) {
+  display: flex;
+  flex-basis: 0;
+  flex-grow: 2.5;
+  flex-shrink: 1;
+}
+
+.table-cell-head p:nth-child(1) {
+  margin-left: 30px;
+}
+
+.table-cell-1 {
+  color: #375288;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.table-cell-1 img {
+  position: relative;
+  right: 8px;
+}
+
+.table-cell-2 {
+  flex-basis: 0;
+  flex-grow: 6;
+  flex-shrink: 1;
+  padding: 8px;
+}
+
+.table-cell-3 {
+  display: flex;
+  flex-basis: 0;
+  flex-grow: 2.5;
+  flex-shrink: 1;
+  padding: 8px;
+}
+
+.table-cell-3 p:nth-child(1){
+  margin-left: 20px;
+}
+
+.table-cell:first-child {
+  text-align: right;
+  flex-grow: 2;
+}
+
+.custom-modal>div>div {
+  padding: 15px;
+}
+
+.modal-dialog {
+  margin: 0;
+}
+
+.modal-content {
+  border-radius: 0;
+  border: none;
+}
+
+.modal-header {
+  border-bottom: none;
+  justify-content: space-between;
+}
+
+.modal-header button {
+  margin: 0 !important;
+  display: none;
+}
+
+.modal-header>div {
+  color: #375288;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.modal-body p {
+  color: #15161F;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.modal-body li {
+  color: #15161F;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.modal-body ul li::before {
+  content: "• ";
+}
+
+.modal-footer {
+  border-top: none;
+  display: flex;
+  justify-content: center;
+}
+
+.modal-footer input {}
+
+.modal-footer button {
+  padding: 4px 10px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.modal-title {
+  margin-left: 0;
+}
+
+.accept-btn {
+  width: 200px;
+  height: 48px;
+  background: linear-gradient(152deg, #2B4984 0%, #00194B 92.19%);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
+  border: none;
+  transition: all 0.5s;
+}
+
+.accept-btn:hover {
+  transform: scale(1.07);
+}
+
+@media only screen and (max-width: 1365px) {
+  .BuyCourseSections {
+    padding: 0 15px;
+  }
+}
+
+@media only screen and (max-width: 1140px) {
+
+  .BuyCourseSections {
+    margin: 52px auto 0 auto;
+    gap: 60px;
+    font-size: 14px;
+  }
+
+  .BuyCourseSectionForm_inputs {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .pagesFormInput {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 30px !important;
+    border: 0.75px solid #6c6c6c;
+  }
+
+
+  .BuyCourseSectionPayment Button {
+    height: 50px;
+    font-size: 16px;
+  }
+
+
+}
+
+@media only screen and (max-width: 800px) {
+  .table-cell-1 {
+    flex-grow: 2;
+  }
+
+  .table-cell-2 {
+    flex-grow: 5;
+  }
+
+  .table-cell-3 {
+    flex-grow: 2;
+  }
+
+  .table-cell-head:nth-child(2) {
+    flex-grow: 2;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .pagesFormInput {
+    height: 43px;
+  }
+
+  .BuyCourseSectionPayment Button {
+    height: 42px;
+    font-size: 14px;
+  }
+
+  .table-cell-1 {
+    flex-grow: 3;
+    font-size: 12px;
+  }
+
+  .table-cell-1 img {
+    width: 30px;
+  }
+
+  .table-cell-2 {
+    flex-grow: 3;
+    font-size: 12px;
+  }
+
+  .table-cell-3 {
+    flex-grow: 3;
+    font-size: 12px;
+  }
+
+  .table-cell-head:nth-child(2) {
+    flex-grow: 3;
+    font-size: 16px;
+  }
+
+  .table-cell-head:nth-child(1) {
+    font-size: 16px;
+  }
+}

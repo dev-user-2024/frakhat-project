@@ -1,0 +1,114 @@
+.bannerContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentBanner {
+    margin-top: 30px;
+}
+
+.contentBanner>div {
+    margin-top: 40px;
+}
+
+.titleBanner {
+    font-size: 34px;
+    line-height: 0;
+}
+
+.titleBanner h2 {
+    line-height: 60px;
+    color: #375288;
+    font-weight: 700;
+}
+
+.titleBanner div {
+    display: flex;
+    align-items: center;
+}
+
+.titleBanner div span {
+    color: #00ACEE;
+}
+
+.titleBanner div img {
+    margin: 0 8px;
+}
+
+.subBanner {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.buttonsBanner button {
+    width: 188px;
+    height: 48px;
+    padding: 10px;
+    gap: 5px;
+    border-radius: 10px;
+    margin: 0 10px;
+    background-color: #fff;
+    border: 1px solid #375288;
+    color: #375288;
+    font-weight: 700;
+}
+
+.buttonsBanner button:nth-child(1) {
+    color: #fff;
+    background: linear-gradient(45deg, #2B4984, #00194B);
+}
+
+
+@media only screen and (max-width: 1300px) {
+    .bannerContainer {
+        flex-wrap: wrap;
+    }
+
+    .contentBanner {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .subBanner {
+        width: 59%;
+    }
+
+    .imageBanner {
+        width: 100%;
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .imageBanner img {
+        margin-top: 40px;
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    .titleBanner h2 {
+        font-size: 25px;
+    }
+
+    .titleBanner img {
+        width: 85px;
+    }
+
+    .subBanner p {
+        font-size: 15px;
+    }
+
+    .buttonsBanner button {
+        width: 160px;
+        height: 48px;
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,103 @@
+.jobContainer {
+    margin-top: 70px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cards>div {
+    margin: 30px 0 30px 0;
+}
+
+.jobTitle h2 {
+    color: #15161F;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.jobCard {
+    width: 433px;
+    padding: 12px 30px;
+    background: #FFFFFF;
+    box-shadow: 1px 4px 30px rgba(0, 0, 0, 0.12);
+    /* margin: 20px; */
+}
+
+.jobCard div {
+    margin-bottom: 18px;
+}
+
+.jobCard div h4 {
+    color: #161616;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.jobCard div span {
+    font-weight: 400;
+    font-size: 14px;
+    color: #161616;
+}
+
+.jobLocation img {
+    width: 24px;
+    margin-left: 10px;
+}
+
+.jobTag {
+    display: flex;
+}
+
+.jobTag div {
+    font-size: 14px;
+    color: #161616;
+    padding: 2px 10px;
+    margin-left: 10px;
+    border: 1px solid rgba(0, 172, 238, 0.2);
+}
+
+.jobContent li:before {
+    content: "-";
+}
+
+.jobContent pre{
+    font-family: "YekanBakh";
+}
+
+.jobButtons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jobButtons span {
+    font-size: 15px;
+    padding: 8px 10px;
+    color: #161616;
+    background-color: rgba(0, 172, 238, 0.2);
+}
+
+.jobButtons button {
+    width: 44px;
+    height: 44px;
+    background: linear-gradient(108.21deg, #2B4984 3.18%, #00194B 137.17%);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 100px;
+    border: none;
+}
+
+@media (max-width: 1350px) {
+    .cards {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 500px) {
+    .jobCard {
+        width: 100%;
+    }
+}

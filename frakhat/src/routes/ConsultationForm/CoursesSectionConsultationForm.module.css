@@ -1,0 +1,107 @@
+.FormSections {
+    max-width: 1440px;
+    margin: 0 auto 100px auto;
+    padding: 0;
+    gap: 60px;
+    color: #282828;
+}
+
+.FormSections h2 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #375288;
+    margin: 20px 0 50px 0;
+}
+
+.FormContainer form {
+    width: 100%;
+}
+
+.FormSectionInputs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.FormSectionInputs div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.FormSectionInputs div label {
+    margin-bottom: 10px;
+}
+
+.FormSectionInputs div label > span {
+    color: red;
+    position: relative;
+    bottom: 9px;
+}
+
+.FormSectionInputs div > span {
+    position: absolute;
+    bottom: -27px;
+    right: 12px;
+    color: red;
+    font-size: 15px;
+}
+
+.FormSectionInputs div input {
+    width: 550px;
+    height: 55px;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid #6C6C6C;
+    border-radius: 10px;
+    outline: none;
+}
+
+.FormSectionInputs div select {
+    width: 550px;
+    height: 55px;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid #6C6C6C;
+    border-radius: 10px;
+}
+
+.SubmitButtons {
+    display: flex;
+    justify-content: end;
+    margin-top: 120px;
+}
+
+.SubmitButtons button {
+    width: 120px;
+    height: 48px;
+    margin-right: 14px;
+    border-radius: 10px;
+    border: 1px solid #375288;
+    background-color: #fff;
+}
+
+.SubmitButtons button:nth-child(1) {
+    background: linear-gradient(45deg, #2B4984, #00194B);
+    color: #fff;
+}
+
+@media only screen and (max-width: 1100px) {
+    .FormSections {
+        margin: 60px 20px 60px 20px;
+    }
+
+    .FormSectionInputs div {
+        width: 100%;
+    }
+
+    .FormSectionInputs div input {
+        width: 100%;
+    }
+
+    .FormSectionInputs div select {
+        width: 100%;
+    }
+}

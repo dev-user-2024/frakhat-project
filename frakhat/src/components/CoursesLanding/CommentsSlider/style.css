@@ -1,0 +1,35 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.slider1 {
+  height: 300px;
+  /* background: #fff; */
+  color: black;
+  /* Center slide text vertically */
+}
+
+.custom-next-button {
+  position: absolute; 
+  right: 10px; 
+  top: 50%; 
+  transform: translateY(-50%);
+  z-index: 10;
+  border: none;
+  padding: 8px;
+  background-color: #375288;
+  border-radius: 50%;
+}
+
+.custom-prev-button {
+  position: absolute; 
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%); 
+  z-index: 10;
+  border: none;
+  padding: 8px;
+  background-color: #375288;
+  border-radius: 50%;
+}

@@ -1,0 +1,59 @@
+.JobAdvertisementInformationContainer {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.AdvertisementInformationContent {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+.AdvertisementInformationContent h4 {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 230%;
+}
+
+.AdvertisementInformationContent>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.AdvertisementInformationContent>div>div>p {
+    line-height: 45px;
+    color: #15161F;
+    font-size: 14px;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .JobAdvertisementInformationContainer {
+        flex-direction: column;
+    }
+
+    .AdvertisementInformationContent {
+        width: 100%;
+    }
+
+    .JobAdvertisementInformationContainer>div {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .AdvertisementInformationContent{
+        text-align: center;
+        align-items: center;
+    }
+
+    .AdvertisementInformationContent>div {
+        flex-direction: column;
+    }
+}

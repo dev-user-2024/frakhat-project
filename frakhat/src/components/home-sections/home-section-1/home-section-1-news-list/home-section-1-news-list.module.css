@@ -1,0 +1,14 @@
+.nesw_list_container{
+    width: 460px;
+    justify-content: space-between;
+}
+
+
+  
+  @media only screen and (max-width: 1200px) {
+    .nesw_list_container{
+      width: 100%;
+      flex-direction: column;
+      order: 2;
+    }
+  }

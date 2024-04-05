@@ -1,0 +1,108 @@
+.AboutContainer {
+    max-width: 1440px;
+    margin: 25px auto;
+    font-family: "YekanBakh";
+    font-style: normal;
+  }
+
+
+.AboutContainer > div{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px 40px 20px;
+}
+
+.AboutContent{
+  margin-left: 20px;
+}
+
+.AboutTitle{
+  display: flex;
+}
+
+.AboutTitle > h2{
+  color: #375288;
+  font-weight: 800;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.AboutContent > p{
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.AboutImage > img{
+  width: 547px;
+}
+
+.managers{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.managers > div{
+  width: 151px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.managers > div > h4{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.managers > div > p{
+  font-size: 16px;
+  ont-weight: 300;
+}
+
+.managerContainer{
+  width: 100%;
+}
+
+.ourColleaguesContainer{
+  width: 100%;
+}
+
+.ourColleagues{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.ourColleagues > div{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+  width: 151px;
+}
+
+.ourColleagues > div > h4{
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 850px) {
+  .AboutContainer > div{
+    flex-wrap: wrap;
+  }
+
+  .AboutImage{
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .AboutImage > img{
+    width: 100%;
+  }
+}

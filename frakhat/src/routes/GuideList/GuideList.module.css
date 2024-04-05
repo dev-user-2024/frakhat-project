@@ -1,0 +1,46 @@
+.GuideList {
+    max-width: 1440px;
+    padding: 0 14px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.GuideList>div>h4 {
+    color: #15161F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    margin-bottom: 10px;
+}
+
+.GuideList>div>p {
+    color: #15161F;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.GuideList img {
+    width: 405px;
+    height: 418px;
+}
+
+@media only screen and (max-width: 860px) {
+    .GuideList img {
+        width: 320px;
+        height: 320px;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .GuideList{
+        flex-direction: column;
+    }
+
+    .GuideList > div:nth-child(2){
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+}

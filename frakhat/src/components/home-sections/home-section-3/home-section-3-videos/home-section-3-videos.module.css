@@ -1,0 +1,26 @@
+.home_section3_videos_container {
+    gap: 20px;
+}
+
+.my_Swiper {
+    width: 100%;
+    height: 100%;
+    gap: 5px;
+  }
+  
+  .swiper_slide {
+    max-width: 250px;
+    height: 100%;
+    text-align: start;
+    background: #fff;
+  
+  
+  }
+  
+  .swiper_slide img {
+    display: block;
+    width: 100%;
+    /* height: 150px; */
+    object-fit: cover;
+  }
+  

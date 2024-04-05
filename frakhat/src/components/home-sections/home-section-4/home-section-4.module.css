@@ -1,0 +1,21 @@
+.homeSection4 {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px;
+  gap: 92px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .homeSection3 {
+    width: 100%;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .mix_news_ad{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}

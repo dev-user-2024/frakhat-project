@@ -1,0 +1,24 @@
+.homeSection2 {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px
+}
+
+.homeSection2_main_container {
+  width: 74%;
+  gap: 80px;
+}
+
+.homeSection2_aside_container {
+  width: 24%;
+  gap: 40px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .homeSection2_main_container {
+    width: 100%;
+    flex-direction: column;
+  }
+
+
+}

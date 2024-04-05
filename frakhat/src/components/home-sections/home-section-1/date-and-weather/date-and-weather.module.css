@@ -1,0 +1,17 @@
+.date_and_weather_container {
+  width: 207px;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .date_and_weather_container {
+    width: 100%;
+    justify-content: space-around;
+    /* gap: 10px; */
+
+    padding: 0 15px;
+    border: 0.5px solid #d9d9d9;
+    border-radius: 10px;
+  }
+}

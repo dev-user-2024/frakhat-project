@@ -1,0 +1,45 @@
+
+.news_Paper_container{
+  max-width: 320px;
+      gap: 20px;
+}
+
+.mySwiper  {
+  width: 100%;
+  height: 190px;
+  direction: ltr;
+  border-radius : 10px
+}
+
+ .SwiperSlide {
+  max-width: 320px;
+  background-position: center;
+  background-size: cover;
+  height: 190px;
+}
+
+.SwiperSlide img {
+   width: 100%;
+    height : 100%;
+    border-radius : 10px
+}
+
+@media only screen and (max-width: 1200px) {
+  .news_Paper_container{
+    max-width: 100%;
+  }
+
+  .mySwiper , .SwiperSlide {
+    height: 280px;
+  }
+
+  .SwiperSlide img {
+    height: 220px;
+  }
+}
+
+
+
+
+
+

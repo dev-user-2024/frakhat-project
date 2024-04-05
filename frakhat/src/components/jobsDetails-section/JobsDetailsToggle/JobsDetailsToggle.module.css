@@ -1,0 +1,45 @@
+.toggleButtons {
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+}
+
+.button {
+    width: 100%;
+    height: 55px;
+    background-color: #fff;
+    border: 1px solid #375288;
+    color: #375288;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.activeButton {
+    width: 100%;
+    height: 55px;
+    background-color: #375288;
+    border: 1px solid #375288;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 700px) {
+    .button {
+        font-size: 15px;
+    }
+
+    .activeButton {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .button {
+        font-size: 13px;
+    }
+
+    .activeButton {
+        font-size: 13px;
+    }
+}

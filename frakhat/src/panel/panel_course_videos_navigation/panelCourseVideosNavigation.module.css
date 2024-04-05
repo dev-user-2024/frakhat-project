@@ -1,0 +1,130 @@
+.PanelNavigationContainer {
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.PanelNavigation_header {
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto 0 auto;
+}
+
+.PanelNavigation_header_profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.logoIcon {
+  width: 20px;
+  /* height: 50px; */
+}
+
+.course_information {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  color: #15161F;
+  font-size: 14px;
+  font-style: normal;
+  line-height: normal;
+  margin: 40px auto 0 auto;
+
+}
+
+.course_information button {
+  width: 207px;
+  height: 48px;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(152deg, #2B4984 0%, #00194B 92.19%);
+  border-radius: 10px;
+  transition: all 0.4s;
+}
+
+.course_information button:hover {
+  transform: scale(1.07);
+}
+
+.course_information img {
+  margin-left: 8px;
+}
+
+.course_information button:active {}
+
+.PanelNavigation_tab {
+  width: 100%;
+  height: 55px;
+  border: 1px solid #375288;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: justify;
+  color: #282828;
+}
+
+.PanelNavigation_tab div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.PanelNavigation_tab img {
+  margin-left: 7px;
+}
+
+.active__tab {
+  margin: auto 0;
+  color: #fff;
+  background: #375288;
+}
+
+.inactive {
+  color: #375288;
+}
+
+@media only screen and (max-width: 1365px) {
+  .PanelNavigation_header {
+    padding: 0 15px;
+  }
+
+  .course_information {
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .logoIcon {
+    width: 25px !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .PanelNavigation_tab div {
+    font-size: 13px;
+  }
+
+  .PanelNavigation_tab img{
+    width: 22px;
+  }
+}

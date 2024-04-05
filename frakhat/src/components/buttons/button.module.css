@@ -1,0 +1,190 @@
+.button_container {
+  width: 90px;
+  height: 33px;
+  padding: 10px;
+  background-color: linear-gradient(152deg, #2B4984 0%, #00194B 92.19%);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  color: #fafafa;
+  font-family: "YekanBakh";
+  font-style: normal;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+.button_container:hover {
+  transform: scale(1.07);
+}
+
+.navigation-button {
+  gap: 10px;
+  background-color: #fefefe;
+  font-size: 14px;
+  line-height: 19px;
+  color: #375288;
+}
+
+.header-button {
+  gap: 5px;
+  background-color: #375288;
+  font-size: 14px;
+  line-height: 22px;
+  color: #fefefe;
+}
+
+.comment-button {
+  width: 120px;
+  height: 48px;
+  background-color: #375288;
+  padding: 13px 45px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #fefefe;
+}
+
+.zPattern-button {
+  width: 148px;
+  height: 48px;
+  direction: ltr !important;
+  color: #375288;
+  border: 1px solid #375288;
+  background: #fff;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.completeForm-button {
+  width: 236px;
+  height: 55px;
+  background: #fefefe;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 34px;
+  color: #282828;
+}
+
+.payment-button {
+  width: 295px;
+  height: 55px;
+  background: linear-gradient(152deg, #2B4984 0%, #00194B 92.19%);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 31px;
+  color: #fefefe;
+}
+
+.galleryDetails-button {
+  width: 106px;
+  height: 33px;
+  display: flex;
+  gap: 5px;
+  background: linear-gradient(108.21deg, #00acee 3.18%, #375288 137.17%);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.courseBanner-button {
+  width: 203px;
+  height: 55px;
+  background: #fefefe;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 37px;
+  color: #282828;
+}
+
+.courseDetailsBanner1-button {
+  width: 203px;
+  height: 55px;
+  background: linear-gradient(108.21deg, #2B4984, #00194B);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 37px;
+  color: #fff;
+}
+
+.courseDetailsBanner2-button {
+  width: 213px;
+  height: 55px;
+  border: 1px solid #00194B;
+  background-color: #fff;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 37px;
+  color: #000;
+}
+
+.loginPage-button {
+  max-width: 388px;
+  height: 48px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  background: #375288;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 235%;
+  color: #fefefe;
+}
+
+.mobileMenuButton-button {
+  width: 310px;
+  height: 40px;
+  padding: 10px;
+  gap: 5px;
+  background: linear-gradient(108.21deg,
+      #00acee 3.18%,
+      #375288 137.17%) !important;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.buycourse_discount_button {
+  width: 137px;
+  height: 55px;
+  background: #6c6c6c;
+  border-radius: 10px;
+}
+
+.buycourse_discount_button:hover {
+  transform: none;
+}
+
+.tags-pagination-button {
+  padding: 10px;
+  background: #6c6c6c;
+}
+
+.button-cart{
+  position: relative;
+  width: 34px;
+  color: #375288;
+  background-color: #fff;
+}
+
+@media only screen and (max-width: 480px) {
+  .payment-button{
+    width: 100%;
+  }
+}

@@ -1,0 +1,54 @@
+.NewsDetailsSquareNewsCard {
+  width: 100%;
+  height: 203px;
+  flex-direction: column;
+  gap: 12px;
+  
+}
+
+.NewsDetailsSquareNewsCard img {
+  width: 100%;
+  height: 147px;
+  border: 0.5px solid #d9d9d9;
+  border-radius: 5px;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+.NewsDetailsSquareNewsCard p {
+  font-family: "YekanBakh";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  transition: all 0.1s;
+}
+
+.NewsDetailsSquareNewsCard p:hover {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .NewsDetailsSquareNewsCard img {
+    width: 100%;
+    height: 120px;
+    border: 0.5px solid #d9d9d9;
+    border-radius: 5px;
+  }
+
+  .NewsDetailsSquareNewsCard p {
+    font-weight: 500;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+
+  .NewsDetailsSquareNewsCard {
+    max-width: 376px;
+    margin: 0 auto;
+  }
+}
+

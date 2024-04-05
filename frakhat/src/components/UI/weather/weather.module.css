@@ -1,0 +1,36 @@
+.weather_container {
+  gap: 5px;
+  padding: 10px 22px;
+  border-radius: 10px;
+
+  font-family: "YekanBakhFaNum";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 23px;
+  text-align: right;
+
+  /* white */
+
+  color: #fefefe;
+}
+
+.weather_container h4 {
+  direction: ltr;
+}
+
+.weather_container h5 {
+  font-size: 16.5px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .weather_container {
+    gap:0;
+    padding: 0;
+    border-radius: none;
+  
+
+    color: #282828;
+  }
+}

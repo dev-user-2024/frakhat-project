@@ -1,0 +1,38 @@
+.successful_purchase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 90px 0;
+}
+
+.successful_purchase div {
+    margin: 20px 0;
+}
+
+.successful_purchase img {
+    width: 197px;
+    height: 166px;
+}
+
+.successful_purchase p {
+    color: #03A70A;
+    font-style: normal;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.successful_purchase button {
+    width: 175px;
+    height: 48px;
+    border-radius: 10px;
+    background: #375288;
+    border: none;
+    color: #fff;
+    transition: all 0.5s;
+    margin-top: 30px;
+}
+
+.successful_purchase button:hover{
+    transform: scale(1.07);
+}

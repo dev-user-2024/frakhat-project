@@ -1,0 +1,26 @@
+.HomeSection6 {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px;
+  gap:60px;
+}
+
+.HomeSection6_section {
+  gap: 15px;
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 1365px) {
+  .HomeSection6 {
+    width: 100%;
+    gap:30px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .HomeSection6_section {
+    width: 100%;
+    flex-direction: column;
+    gap: 30px;
+  }
+}

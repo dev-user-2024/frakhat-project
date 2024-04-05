@@ -1,0 +1,58 @@
+.chosen {
+  width: 100%;
+  gap: 20px;
+}
+
+.chosen_cards {
+  gap: 30px;
+}
+
+#title_line {
+  width: 100%;
+  border-bottom: 4px solid #00ACEE;
+  border-radius: 10px;
+  transform: rotate(180deg);
+}
+
+.chosen_title {
+  gap: 11px;
+}
+
+.chosen_title_link {
+  gap: 11px;
+}
+.chosen_title_link:hover {
+}
+
+
+.sliderContainer{
+  height: 270px;
+}
+
+.my_Swiper {
+  width: 100%;
+  height: 100%;
+  gap: 50px;
+}
+
+.swiper_slide {
+  max-width: 270px;
+  height: 100%;
+  text-align: start;
+  background: #fff;
+
+
+}
+
+.swiper_slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 960px){
+  .chosen_cards{
+    justify-content: center !important;
+  }
+}

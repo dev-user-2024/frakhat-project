@@ -1,0 +1,49 @@
+.header_container {
+  max-width: 1440px;
+  height: 52px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header_logo {
+  height: 50px;
+}
+
+.header_links {
+  gap: 71px;
+}
+
+.header_links_items {
+  gap: 30px;
+  font-family: "YekanBakh";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  color: #375288;
+}
+
+.header_links_item {
+  line-height: 52px;
+  color: #375288;
+}
+
+.header_links_item:hover {
+  color: #375288;
+}
+
+.header_feature {
+  gap: 30px;
+}
+
+.header_search i {
+  color: #282828;
+}
+
+@media only screen and (max-width: 700px) {
+
+ .header_container{
+  display: none !important;
+ }
+
+}

@@ -1,0 +1,49 @@
+.title_line_container {
+}
+.title_line_link {
+  gap: 9px;
+  font-family: "YekanBakh";
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #282828;
+}
+
+.title_line_link:hover{
+  color: #282828;
+}
+
+.title_line_icon {
+  /* width: fit-content; */
+  gap: 9px;
+}
+
+.title_line {
+  flex: none;
+  flex-grow: 1;
+  border-bottom: 4px solid #00ACEE;
+  border-radius: 10px;
+}
+
+.activeClass {
+  color: #375288
+  ;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 22px;
+  border-bottom-color: #375288;
+}
+
+.active__tab {
+  margin: auto 0;
+  color: #fff;
+  background: linear-gradient(108.21deg, #00acee 3.18%, #375288 137.17%);
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .title_line_link{
+    font-size: 12px;
+
+  }
+}

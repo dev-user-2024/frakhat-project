@@ -1,0 +1,15 @@
+.homeSection1 {
+  max-width: 1440px;
+  gap: 20px;
+  margin: 0 auto;
+  padding: 0 15px
+}
+
+@media only screen and (max-width: 1200px) {
+  .homeSection1 {
+    width: 100%;
+    flex-direction: column;
+  }
+
+
+}

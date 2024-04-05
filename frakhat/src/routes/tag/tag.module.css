@@ -1,0 +1,32 @@
+.tagsContainer{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.tagsTitle{
+    display: flex;
+    align-items: center;
+    margin: 30px 0 65px 0;
+}
+
+.tagsTitle h4{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.tagsTitle span{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    font-size: 15px;
+    padding: 0 15px;
+    margin-right: 10px;
+    color: #161616;
+    background-color: rgba(0, 172, 238, 0.2);
+}
+
+.tagsCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

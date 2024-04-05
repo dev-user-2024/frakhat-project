@@ -1,0 +1,71 @@
+.PanelCourses_container {
+  width: 1440px;
+  margin: 60px auto 0 auto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: justify;
+  color: #282828;
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  flex-wrap: wrap;
+}
+
+.CourseCard {
+  width: 320px;
+  height: 350px;
+  background: #FEFEFE;
+  box-shadow: 0px 6px 32px 0px rgba(0, 0, 0, 0.08);
+}
+
+.cardImage {
+  width: 320px;
+  height: auto;
+}
+
+.cardImage img {
+  width: 100%;
+  height: 100%;
+  filter: brightness(0.9);
+  border-radius: 8px;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 7px;
+  padding-top: 10px;
+}
+
+.cardContent p {
+  color: #15161F;
+  font-size: 14px;
+  font-style: normal;
+}
+
+.cardContent img{
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 50%;
+  transition: ease-in-out 0.2s;
+}
+
+.cardContent img:hover{
+  background-color: #e6e6e6;
+}
+
+.cardContent img:active{
+  background-color: #c0c0c0;
+}
+
+.finished {
+  color: #1D9BF0;
+}
+
+.onPerforming{
+  color: #16900B;
+}

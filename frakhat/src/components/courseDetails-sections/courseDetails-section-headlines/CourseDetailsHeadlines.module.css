@@ -1,0 +1,117 @@
+.CourseDetailsHeadlines_container {
+  width: 100%;
+  margin: 200px auto 0 auto;
+  padding: 50px 0;
+  gap: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "YekanBakhFaNum";
+  font-style: normal;
+  line-height: 220%;
+  color: #fefefe;
+  background-image:  linear-gradient(to left, rgba(43, 73, 132, 0.5), rgba(0, 25, 75, 0.5)), url("../../../assets/images/courseDetails.Headlines-bg.svg")
+}
+
+.CourseDetailsHeadlines_title h2 {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 50px;
+}
+.CourseDetailsHeadlines_title div:nth-child(1) {
+  flex: none;
+  flex-grow: 1;
+  border-bottom: 2px solid #d9d9d9;
+  border-image: linear-gradient(
+      101.5deg,
+      #00acee 5.64%,
+      #375288 36.08%,
+      rgba(219, 106, 1, 0) 73.08%
+    )
+    1;
+  border-radius: 10px;
+  transform: rotate(-180deg);
+}
+.CourseDetailsHeadlines_title div:nth-child(3) {
+  flex: none;
+  flex-grow: 1;
+  border-bottom: 2px solid #d9d9d9;
+  border-image: linear-gradient(
+      101.5deg,
+      #00acee 8.64%,
+      #375288 41.08%,
+      rgba(219, 106, 1, 0) 65.08%
+    )
+    1;
+  border-radius: 10px;
+}
+
+.CourseDetailsHeadlines_content {
+  max-width: 1440px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 220%;
+  margin: 0 auto;
+}
+
+.CourseDetailsHeadlines_content h3 {
+  color: rgb(221, 221, 221);
+}
+
+.CourseDetailsHeadlines_content a {
+  color: inherit;
+  border-bottom: 1px solid
+}
+
+
+
+.CourseDetailsHeadlines_content li {
+  display: flex;
+  margin-bottom: 5px;
+  font-weight: normal;
+  font-size: 18px ;
+}
+
+
+.CourseDetailsHeadlines_content li::before {
+  content: "•";
+  width: 7px !important;
+  height: 7px;
+  border-radius: 50%;
+  color: #fefefe;
+
+  margin-left: 9px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .CourseDetailsHeadlines_container {
+    margin: 100px auto 0 auto;
+    padding: 50px 0;
+    gap: 30px;
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+  }
+
+  .CourseDetailsHeadlines_title h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .CourseDetailsHeadlines_content {
+    padding: 0 20px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 220%;
+  }
+  .CourseDetailsHeadlines_content li strong {
+    
+    font-size: 16px ;
+  }
+  .CourseDetailsHeadlines_content h3 {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,73 @@
+.galleryNavigation_container {
+  max-width: 1440px;
+  height: 52px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.galleryNavigation_links {
+  gap: 71px;
+}
+
+.galleryNavigation_links_items {
+  gap: 28px;
+  font-family: "YekanBakh";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+
+  color: #6c6c6c;
+}
+
+.galleryNavigation_links_item {
+  line-height: 52px;
+}
+
+.galleryNavigation_links_item:hover {
+  color: #6c6c6c;
+}
+
+.galleryNavigation_center_links_items {
+  gap: 20px;
+}
+
+.galleryNavigation_center_links_items
+  .galleryNavigation_center_links_item:nth-child(1) {
+  padding-left: 20px;
+  border-left: 1px solid #d9d9d9;
+}
+
+.galleryNavigation_feature {
+  gap: 30px;
+}
+
+.galleryNavigation_search i {
+  color: #282828;
+}
+
+.galleryNavigation_search form {
+  gap: 15px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+
+  color: #6c6c6c;
+}
+
+.galleryNavigation_search form input {
+  width: 145px;
+  height: 38px;
+  padding: 8px;
+  background: #fefefe;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  outline: none;
+}
+
+.galleryNavigation_search form input:nth-child(1) {
+  width: 229px;
+}
+.galleryNavigation_search form label {
+  margin-left: 6px;
+}

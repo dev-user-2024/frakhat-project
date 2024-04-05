@@ -1,0 +1,52 @@
+.day_story_container {
+  gap: 20px;
+}
+
+.home_section4 {
+  gap: 20px;
+}
+
+.my_Swiper {
+  width: 100%;
+  height: 100%;
+  gap: 5px;
+}
+
+.swiper_slide {
+  max-width: 250px;
+  height: 100%;
+  text-align: start;
+  background: #fff;
+}
+
+.swiper_slide img {
+  display: block;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.chosen_cards{
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+@media only screen and (max-width: 1400px){
+  .chosen_cards{
+    /* justify-content: center !important; */
+  }
+}
+
+@media only screen and (max-width:  1300px){
+  .chosen_cards{
+    width: 100%;
+    flex-direction: column;
+    align-items: center !important;
+  }
+
+  .chosen_cards > span{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+}

@@ -1,0 +1,106 @@
+{
+    "name": "laravel/laravel",
+    "type": "project",
+    "description": "The Laravel Framework.",
+    "keywords": ["framework", "laravel"],
+    "license": "MIT",
+    "require": {
+        "php": "^8.0.2",
+        "ext-curl": "*",
+        "cryptommer/smsir": "^1.1",
+        "davejamesmiller/laravel-breadcrumbs": "^5.3",
+        "evryn/laravel-toman": "^2.0",
+        "guzzlehttp/guzzle": "^7.2",
+        "hekmatinasser/verta": "^8.1",
+        "imanghafoori/laravel-heyman": "^2.2",
+        "imanghafoori/laravel-middlewarize": "^1.1",
+        "imanghafoori/laravel-nullable": "^1.2",
+        "intervention/image": "^2.7",
+        "jenssegers/agent": "^2.6",
+        "lab404/laravel-impersonate": "^1.7",
+        "laravel/framework": "^9.19",
+        "laravel/sanctum": "^3.0",
+        "laravel/tinker": "^2.7",
+        "laravel/ui": "^4.0",
+        "morilog/jalali": "^3.4",
+        "pishran/zarinpal": "^4.3",
+        "saeedpooyanfar/zarinpal": "^5.0",
+        "spatie/laravel-permission": "^5.5",
+        "vinkla/hashids": "^10.0"
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.9.1",
+        "laravel/pint": "^1.0",
+        "laravel/sail": "^1.0.1",
+        "mockery/mockery": "^1.4.4",
+        "nunomaduro/collision": "^6.1",
+        "phpunit/phpunit": "^9.5.10",
+        "spatie/laravel-ignition": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/",
+            "Modules\\UserAuth\\": "modules/UserAuth/",
+            "Modules\\Category\\": "modules/Category",
+            "Modules\\Language\\": "modules/Language",
+            "Modules\\Tag\\": "modules/Tag",
+            "Modules\\Post\\": "modules/Post",
+            "Modules\\Image\\": "modules/Image",
+            "Modules\\Video\\": "modules/Video",
+            "Modules\\Comment\\": "modules/Comment",
+            "Modules\\CategoryUser\\": "modules/CategoryUser",
+            "Modules\\UserDetail\\": "modules/UserDetail",
+            "Modules\\Like\\": "modules/Like",
+            "Modules\\View\\": "modules/View",
+            "Modules\\TeachingRequest\\": "modules/TeachingRequest",
+            "Modules\\Discount\\": "modules/Discount",
+            "Modules\\Banner\\": "modules/Banner",
+            "Modules\\CartItem\\": "modules/CartItem",
+            "Modules\\Menu\\": "modules/Menu",
+            "Modules\\ApiFront\\": "modules/ApiFront",
+            "Modules\\AdBanner\\": "modules/AdBanner",
+            "Modules\\Contact\\": "modules/Contact",
+            "Modules\\Job\\": "modules/Job"
+        },
+        "files": [
+            "app/Helpers/functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover --ansi"
+        ],
+        "post-update-cmd": [
+            "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
+        ],
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "@php artisan key:generate --ansi"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": []
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

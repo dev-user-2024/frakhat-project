@@ -1,0 +1,62 @@
+.jobsFilterContainer{
+    width: 422px;
+    /* border-left: 1px solid #D9D9D9; */
+}
+
+.jobsFilterContainer > h2 {
+    color: #15161F;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.headFilters{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 172, 238, 0.05);
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.headFilters > div{
+    display: flex;
+    align-items: center;
+}
+
+.headFilters > div > img{
+    margin-left: 10px;
+}
+
+.headFilters > div > h4{
+    color: #375288;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.filterOptions{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin: 20px 10px 20px 0;
+}
+
+.filterOptions > label{
+    display: flex;
+    align-items: center;
+    color: #15161F;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.filterOptions > label > input{
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+@media only screen and (max-width: 1000px){
+    .jobsFilterContainer{
+        display: none;
+    }
+}

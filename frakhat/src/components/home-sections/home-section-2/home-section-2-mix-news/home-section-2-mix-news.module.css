@@ -1,0 +1,32 @@
+.mix_news_container {
+  gap: 20px;
+}
+.title_links {
+  gap: 25px;
+}
+.mix_news {
+  gap: 42px;
+}
+
+.mix_news_ad {
+  margin-top: 44px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .mix_news_ad {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .title_links{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .title_links > div:nth-child(3){
+    padding-bottom: 20px;
+  }
+}

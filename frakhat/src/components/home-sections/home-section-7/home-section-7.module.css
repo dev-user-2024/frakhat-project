@@ -1,0 +1,46 @@
+.homeSection7 {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px;
+  gap: 20px;
+
+  font-family: "YekanBakh";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.homeSection7_content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.homeSection7_section li{
+margin-bottom: 15px;
+}
+
+.homeSection7_otherMedia::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #375288;
+
+  display: inline-block;
+  margin-left: 9px;
+}
+
+@media only screen and (max-width: 1365px) {
+  .homeSection7 {
+    width: 100%;
+    font-size: 12.5px;
+    line-height: 20px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .homeSection7_content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }}

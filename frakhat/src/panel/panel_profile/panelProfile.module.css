@@ -1,0 +1,134 @@
+.PanelProfile {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  max-width: 1440px;
+  padding: 0 35px;
+  margin: 30px auto 50px auto;
+}
+
+.imageProfile {
+  width: 130px;
+  height: 130px;
+  background-color: #000;
+}
+
+.editProfile {
+  border: none;
+  background-color: #fff;
+  transition: 0.2s;
+}
+
+.editProfile:active {
+  transform: scale(1.05);
+}
+
+.formInput {
+  margin-top: 25px;
+}
+
+.rowInput {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.rowInput>div {
+  width: 550px;
+}
+
+.rowInput label {
+  margin-bottom: 10px;
+}
+
+.rowInput input {
+  outline: none;
+}
+
+.invalid_input {
+  position: absolute;
+  top: 11px;
+  right: 12px;
+  font-size: 16px;
+}
+
+.PanelProfile_avatar img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.PanelProfile_avatar p {
+  cursor: pointer;
+}
+
+.pagesFormInputContainer {
+  margin-bottom: 25px !important;
+}
+
+.pagesFormInput {
+  width: 100%;
+}
+
+.PanelProfile_inputs input {
+  width: 100%;
+  border: 2px solid #375288;
+}
+
+.PanelProfileInutContainer {
+  position: relative;
+  margin-bottom: 10px !important;
+}
+
+.pagesFormInput {
+  height: 45px;
+  padding: 6px 10px;
+  margin: 5px 0 0 0;
+  border: 1px solid #6c6c6c;
+  border-radius: 10px;
+}
+
+.submitForm {
+  display: flex;
+  justify-content: end;
+
+}
+
+.submitForm button {
+  width: 120px !important;
+  height: 48px;
+  background: linear-gradient(152deg, #2B4984, #00194B);
+
+}
+
+@media only screen and (max-width: 1140px) {
+
+  .BuyCourseSections {
+    margin: 52px auto 0 auto;
+    gap: 60px;
+
+    font-size: 14px;
+
+  }
+
+  .PanelProfile_inputs {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .pagesFormInput {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 30px !important;
+
+    border: 0.75px solid #6c6c6c;
+  }
+}
+
+@media only screen and (max-width: 1130px) {
+  .rowInput>div {
+    width: 100%;
+  }
+}

@@ -1,0 +1,89 @@
+.PanelCourseVideos {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  gap: 50px;
+  margin: 70px auto 0 auto;
+  padding: 0;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.PanelCourseVideos button {
+  background: #00acee;
+  gap: 20px;
+}
+
+.PanelCourseVideos_info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.PanelCourseVideos_main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.PanelCourseVideos_list {
+  width: 29%;
+}
+
+.PanelCourseVideos_files {
+  width: 888px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.VideosListItem {
+  width: 100%;
+  height: 53px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background: #fff;
+  padding-right: 20px;
+  clip-path: polygon(5.35% 0%, 100% 0, 100% 100%, 5.35% 100%, 0% 50%);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.VideosListItem span {
+  color: #375288;
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.activeClass {
+  background-color: #375288;
+  
+}
+
+.activeClass span {
+  color: #fff !important;
+}
+
+@media only screen and (max-width: 1400px) {
+  .PanelCourseVideos_main {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .PanelCourseVideos_files {
+    width: 95%;
+    order: 0;
+  }
+
+  .PanelCourseVideos_list {
+    width: 95%;
+    order: 2;
+  }
+}

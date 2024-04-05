@@ -1,0 +1,112 @@
+.Card_container,
+.imgSmall {
+  width: 100%;
+  gap: 15px;
+}
+
+.card_image {
+  width: 207px;
+  height: 147px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.card_context {
+  gap: 6px;
+  font-family: "YekanBakh";
+  font-style: normal;
+  text-align: justify;
+  color: #282828;
+}
+
+.card_context h3 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: normal;
+}
+
+.card_context p {
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.imgSmall img {
+  width: 130px;
+  height: 90px;
+  object-fit: cover;
+}
+
+.imgSmall .card_context h3 {
+  max-width: 320px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  max-height: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: break-spaces;
+}
+
+.imgSmall .card_context p {
+  max-height: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: break-spaces;
+}
+
+.mixNews{
+  
+}
+
+@media only screen and (max-width: 1200px) {
+  .Card_container {
+    width: 100%;
+    align-items: start !important;
+    margin-bottom: 15px;
+  }
+
+  .card_context {
+    width: 100%;
+    line-height: auto;
+  }
+
+  .card_image {
+    max-width: 150px;
+    height: 95px;
+  }
+
+  .imgSmall img {
+    width: 120px;
+    height: 90px;
+  }
+
+  .imgSmall .card_context p {
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .mixNews {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .categoryNews{
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    max-width: 376px;
+    margin: 0 auto;
+  }
+
+  .categoryNews img{
+    max-width: 198px;
+    height: 110px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+}

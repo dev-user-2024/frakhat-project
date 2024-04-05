@@ -1,0 +1,75 @@
+.time_and_date_container {
+  max-width: 100%;
+
+  border: 0.5px solid #d9d9d9;
+  border-radius: 10px;
+  padding: 10px 25px 10px 0;
+
+  font-family: "YekanBakhFaNum";
+}
+
+.time_and_date_list {
+  gap: 6px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: #6c6c6c;
+}
+
+.time_and_date_list li:nth-child(1) {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 37px;
+  color: #282828;
+}
+
+.time_and_date_item::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #375288;
+
+  display: inline-block;
+  margin-left: 9px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .time_and_date_container {
+    max-width: 100%;
+
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 14px;
+    
+    color: #282828;
+  }
+  
+  .time_and_date_container ul{
+    padding: 14px 0;
+    gap: 13px;
+
+  }
+
+
+  .time_and_date_container ul :nth-child(1) {
+    font-family: "YekanBakhFaNum";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+
+    
+ 
+
+    color: #282828;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  
+}

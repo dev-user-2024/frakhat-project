@@ -1,0 +1,19 @@
+.ad_list_container {
+    width: 100%;
+    gap: 20px;
+}
+
+.ad_list { 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1200px) {
+    .ad_list {
+        display: grid !important;
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 20px;
+    }
+}

@@ -1,0 +1,130 @@
+.LoginSectionsContainer {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../assets/images/loginBg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 65px 0;
+  font-family: "YekanBakh";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 200%;
+
+  color: #282828;
+}
+
+.LoginSections {
+  max-width: 630px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 50px auto 0 auto;
+  padding: 31px 0;
+  gap: 60px;
+}
+
+.LoginHeader>div {
+  display: flex;
+  align-items: end;
+}
+
+.home_link a {
+  display: flex;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  background-color: transparent;
+}
+
+.LoginSections h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 31px;
+
+  color: #282828;
+}
+
+.LoginSectionWithEmail {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.LoginSectionWithEmail Button {
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+.LoginSectionWhitUserPass {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.LoginSectionWhitUserPass form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.invalid_input {
+  width: 100%;
+  margin-top: 0.1rem;
+  font-size: .875em;
+  color: #dc3545;
+  height: 20px;
+}
+
+.LoginSectionWhitUserPassInput {
+  width: 388px;
+  height: 48px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 12px 12px 12px 0px;
+  /* margin-bottom: 28px; */
+  gap: 8px;
+
+  background: #fefefe;
+
+  border: 0.5px solid #282828;
+  border-radius: 10px;
+}
+
+.LoginSectionWhitUserPassInput input {
+  flex-grow: 1;
+  padding: 2px;
+  border: none;
+  outline: none;
+}
+
+.LoginSectionLine {
+  height: 1px;
+  border-bottom: 1px solid #375288;
+
+  border-image: linear-gradient(270deg,
+      rgba(234, 114, 2, 0) 5.37%,
+      #375288 49.77%,
+      rgba(234, 114, 2, 0) 95.09%) 1;
+}
+
+@media only screen and (max-width: 1365px) {
+  .LoginSectionsContainer {
+    padding: 15px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .LoginSectionWhitUserPassInput {
+    width: 100%;
+  }
+}
