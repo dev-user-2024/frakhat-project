@@ -6,7 +6,7 @@ git clone https://github.com/dev-user-2024/frakhat-project.git
 ```
 Step 2:
 ```
-cd frakhat-admin
+cd frakhat-back
 
 composer update
 ```
